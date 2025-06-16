@@ -1,0 +1,55 @@
+ body{
+            margin: 0;
+        }
+        .forest-bg{
+            background-image: url(amazonforest.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-attachment: fixed;
+        }
+        .forest-heading:hover{
+               background-color: rgb(214, 212, 205);
+        }
+        .forest-heading{
+            background-color: rgb(255, 255, 255,0.8);
+            color: #000;
+            padding: 20px;
+            font-weight: bold;
+            font-size: 50px;
+            border-radius: 20px;
+        }
+        .about-forest{
+            background-color: white;
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            text-align: justify;
+            font-style:normal;
+            font-size: 22px;    
+        }
+        .forest-section{
+             background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-attachment: fixed;
+
+        }
+         .amazon-rainforest{
+             background-image: url(amazon.jpg);
+         }
+         .congo-rainforest{
+            background-image: url(f2.webp);
+         }
+         .taiga-forest{
+             background-image: url(taigaforest.jpg);
+         }
